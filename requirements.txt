@@ -1,0 +1,29 @@
+PySide6>=6.7.0          # Qt для питона — весь интерфейс
+PySide6-WebEngine>=6.7.0 # для анимации частиц в дроп зоне
+
+pydub>=0.25.1           # конвертация аудио (нужен ffmpeg в PATH)
+
+Pillow>=10.0.0          # форматы изображений
+pillow-heif>=0.16.0     # HEIF/HEIC (яблочные фото)
+
+PyMuPDF>=1.24.0         # PDF → картинка, мощный PDF парсер
+pypdf>=3.0.0            # чтение PDF
+pdfplumber>=0.10.0      # ещё один PDF парсер
+reportlab>=4.0.0        # генерация PDF из текста
+
+ffmpeg-python>=0.2.0    # видео конвертация (нужен ffmpeg в PATH)
+
+python-docx>=1.0.0      # Word файлы
+python-pptx>=0.6.0      # PowerPoint
+openpyxl>=3.1.0         # Excel
+
+lxml>=4.9.0             # XML/HTML
+PyYAML>=6.0             # YAML
+Markdown>=3.4.0         # Markdown → HTML
+beautifulsoup4>=4.12.0  # HTML → текст
+
+openai>=1.0.0           # клиент для AI API
+
+pyinstaller>=6.0.0      # Python → исполняемый файл
+
+python-dotenv>=1.0.0    # .env файлы
